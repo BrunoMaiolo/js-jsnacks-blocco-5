@@ -21,3 +21,7 @@ const students = [
 
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
+
+//metodo find perche mi serve un solo elemento che rispetta una condizione//
+const student = students.find(student => student.id === 2);
+ console.log(student);
