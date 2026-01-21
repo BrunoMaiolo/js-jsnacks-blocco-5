@@ -21,3 +21,7 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+//metodo find: recuperare lo studente tramite id e destrutturare solo la proprieta che serve//
+const student = students.find(student => student.id === 1);
+console.log(student.class);
