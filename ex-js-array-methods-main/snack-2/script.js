@@ -6,3 +6,9 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+
+//metodo forEach//
+people.forEach(person => {
+  console.log(person.name);
+});
